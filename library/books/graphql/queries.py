@@ -11,3 +11,6 @@ class Query(graphene.ObjectType):
     def resolve_all_authors(root, info):
         return Books.objects.all()
         # return Ingredient.objects.select_related("category").all()
+
+
+#modify the queries so that we can get all details about the book . 
